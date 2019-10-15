@@ -9,7 +9,6 @@ namespace LojaVirtual.Libraries.Email
     {
         public static void EnviarContatoPorEmail(Contato contato)
         {
-            string msgErro;
             string remetenteEmail = "diegov.peresr13@gmail.com"; //O e-mail do remetente
             MailMessage mail = new MailMessage();
             mail.To.Add("diegov.peresr13@gmail.com");
@@ -30,16 +29,16 @@ namespace LojaVirtual.Libraries.Email
             client.Credentials = new System.Net.NetworkCredential(remetenteEmail, "floquinho2012");
             client.Port = 587;
             client.Host = "smtp.gmail.com"; //Definindo o provedor que irá disparar o e-mail
-            client.EnableSsl = true; //Gmail trabalha com Server Secured Layer      
+            client.EnableSsl = true; //Gmail trabalha com Server Secured Layer                
 
-            // try
-            // {
-                client.Send(mail);
-            // }
-            // catch (Exception ex)
-            // {
-            //     msgErro = "Ocorreu um erro ao enviar:" + ex.Message;
-            // }   
+             try
+             {                
+                client.Send(mail); 
+             }
+             catch (Exception ex)
+             {
+                 throw ex;
+             }   
         }
 
     }
