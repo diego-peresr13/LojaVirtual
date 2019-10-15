@@ -2981,6 +2981,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Home/Contato.cshtml",
+      "TargetPath": "Views/Home/Contato.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/_ViewImports.cshtml",
       "TargetPath": "Views/_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -2988,6 +2993,21 @@
     {
       "FilePath": "Views/Shared/Error.cshtml",
       "TargetPath": "Views/Shared/Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/CarrinhoCompras.cshtml",
+      "TargetPath": "Views/Home/CarrinhoCompras.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/CadastroCliente.cshtml",
+      "TargetPath": "Views/Home/CadastroCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Login.cshtml",
+      "TargetPath": "Views/Home/Login.cshtml",
       "FileKind": "mvc"
     },
     {

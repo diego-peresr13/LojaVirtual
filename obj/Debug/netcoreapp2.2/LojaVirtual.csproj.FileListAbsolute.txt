@@ -28,3 +28,7 @@
 /home/diego/app/CSharp/LojaVirtual/obj/Debug/netcoreapp2.2/LojaVirtual.dll
 /home/diego/app/CSharp/LojaVirtual/obj/Debug/netcoreapp2.2/LojaVirtual.pdb
 /home/diego/app/CSharp/LojaVirtual/obj/Debug/netcoreapp2.2/LojaVirtual.csproj.CopyComplete
+/home/diego/app/CSharp/LojaVirtual/obj/Debug/netcoreapp2.2/Razor/Views/Home/Contato.g.cshtml.cs
+/home/diego/app/CSharp/LojaVirtual/obj/Debug/netcoreapp2.2/Razor/Views/Home/CadastroCliente.g.cshtml.cs
+/home/diego/app/CSharp/LojaVirtual/obj/Debug/netcoreapp2.2/Razor/Views/Home/CarrinhoCompras.g.cshtml.cs
+/home/diego/app/CSharp/LojaVirtual/obj/Debug/netcoreapp2.2/Razor/Views/Home/Login.g.cshtml.cs
